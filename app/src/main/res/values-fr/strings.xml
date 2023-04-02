@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bloquer Appels Spam</string>
+    <string name="message_ask_for_permissions">Cette application nécessite des permissions Android pour fonctionner correctement</string>
+    <string name="message_missing_permissions">Permissions manquantes</string>
+    <string name="message_grant_permissions">Accorder les permissions</string>
+
+    <string name="title_settings">Paramètres</string>
+    <string name="title_regles">Règles</string>
+
+    <string name="title_history">Historique</string>
+    <string name="activer_blocage">Activer le blocage de SPAM</string>
+    <string name="display_notification">Afficher une notification quand un numéro est bloqué</string>
+    <string name="toujours_bloquer">Toujours bloqué</string>
+    <string name="toujours_accepter">Toujours accepté</string>
+
+
+    <string name="menu_modifier">Modifier…</string>
+    <string name="menu_supprimer">Supprimer</string>
+    <string name="notification_numero_bloque">Appel entrant bloqué</string>
+    <string name="ui_a_propos_icones">Source des icônes https://materialdesignicons.com</string>
+    <string name="ui_a_propos_code">Quelques morceaux de code: https://stackoverflow.com</string>
+    <string name="ui_bouton_rapport">Rapport</string>
+
+    <string name="channel_name">Bloquer inconnus</string>
+    <string name="channel_description">Bloquer les appels de correspondants inconnus</string>
+    <string name="supprimer_titre">Supprimer</string>
+    <string name="supprimer_regle">Voulez-vous supprimer la règle %1$s?</string>
+    <string name="enabled">Activé</string>
+    <string name="disabled">Désactivé</string>
+
+    <string name="element_list_bloque">%1$s toujours bloqué</string>
+    <string name="element_list_accepte">%1$s toujours autorisé</string>
+
+    <string name="appel_bloque">Appel entrant bloqué %1$s</string>
+    <string name="appel_autorise">Appel entrant autorisé %1$s</string>
+    <string name="supprimer_evenements">Supprimer les événements?</string>
+    <string name="creer_des_regles">Aucune règle trouvée. Veuillez créer des règles de fonctionnement dans l\'onglet \"Règles\"</string>
+    <string name="numero_vide_titre">Numéro vide</string>
+    <string name="numero_vide_message">Veuillez saisir un numéro de téléphone ou un début de numéro</string>
+    <string name="report_effacer_traces">Effacer les traces?</string>
+    <string name="message_regle_supprimee">Règle %1$s supprimée</string>
+    <string name="titre_creer_regles">Aucune règle trouvée</string>
+    <string name="ui_pas_encore_de_regles">Pressez + pour ajouter une règle</string>
+    <string name="ui_pas_encore_devenement">Pas encore d\'évenements</string>
+</resources>

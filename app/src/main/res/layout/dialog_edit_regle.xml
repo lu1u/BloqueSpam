@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numéro ou début du numéro:" />
+
+    <EditText
+        android:id="@+id/etNumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:allowUndo="true"
+        android:ems="10"
+        android:focusable="auto"
+        android:focusableInTouchMode="true"
+        android:focusedByDefault="true"
+        android:inputType="phone"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:autofillHints=""> <requestFocus /></EditText>
+
+    <RadioGroup
+        android:id="@+id/rgRegle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbBloquer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/toujours_bloquer" />
+
+        <RadioButton
+            android:id="@+id/rbAutoriser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/toujours_accepter" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bCancel"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@android:string/cancel"
+            android:textAllCaps="false"
+            android:textColor="@color/secondary" />
+
+        <Button
+            android:id="@+id/bOk"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@android:string/ok"
+            android:textAllCaps="false"
+            android:textColor="@color/secondary" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dimension_icone_regles">32dp</dimen>
+    <dimen name="taille_bouton_onoff">72dp</dimen>
+    <dimen name="corner_onoff_track">32dp</dimen>
+    <dimen name="corner_onoff_thumb">24dp</dimen>
+    <dimen name="taille_drawable_enable">24dp</dimen>
+    <dimen name="taille_bord_toggle">4dp</dimen>
+    <dimen name="taille_logo">128dp</dimen>
+    <dimen name="taille_bouton_info">56dp</dimen>
+    <dimen name="ecart_ui_settings">36dp</dimen>
+    <dimen name="taille_texte_logo">34sp</dimen>
+</resources>

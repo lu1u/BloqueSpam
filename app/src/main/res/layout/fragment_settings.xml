@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".ui.settings.SettingsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ecart_ui_settings"
+        android:shadowColor="@color/primary"
+        android:shadowDx="0"
+        android:shadowDy="4"
+        android:shadowRadius="4"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="@dimen/taille_texte_logo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/taille_logo"
+        android:layout_marginTop="@dimen/ecart_ui_settings"
+        android:src="@drawable/ic_application"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <com.lpi.bloquespam.ui.CustomOnOffSwitch
+        android:id="@+id/cOnOff"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/taille_bouton_onoff"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="@dimen/ecart_ui_settings"
+        android:layout_marginEnd="8dp"
+        app:CCOS_dureeAnimation="300"
+        app:CCOS_interpolateur="OvershootInterpolator"
+        app:CCOS_on="true"
+        app:CCOS_thumbSize="75%"
+        app:COOS_couleurTexte="@color/white"
+        app:COOS_drawableOff="@drawable/icstopcircle"
+        app:COOS_drawableOn="@drawable/icplaycircle"
+        app:COOS_drawableThumb="@drawable/onoff_thumb"
+        app:COOS_drawableTrack="@drawable/onoff_track"
+        app:COOS_paddingDrawable="8dp"
+        app:COOS_paddingThumb="10dp"
+        app:COOS_tailleDrawable="60dp"
+        app:COOS_tailleTexte="24dp"
+        app:COOS_texteOff="@string/disabled"
+        app:COOS_texteOn="@string/enabled"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Space
+        android:id="@+id/space3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <Switch
+        android:id="@+id/swNotify"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="@dimen/ecart_ui_settings"
+        android:layout_marginEnd="8dp"
+        android:text="@string/display_notification"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cOnOff" />
+
+    <ImageButton
+        android:id="@+id/ibInfos"
+        android:layout_width="@dimen/taille_bouton_info"
+        android:layout_height="@dimen/taille_bouton_info"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:src="@drawable/information"
+        android:tint="@android:color/secondary_text_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

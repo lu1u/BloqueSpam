@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/corner_onoff_thumb" />
+    <solid android:color="@color/secondary_variant" />
+    <gradient
+        android:angle="270"
+        android:centerColor="@color/secondary"
+        android:endColor="@color/secondary_variant"
+        android:startColor="@color/secondady_light"
+        android:type="linear" />
+    <stroke
+        android:width="@dimen/taille_bord_toggle"
+        android:color="#fff" />
+</shape>

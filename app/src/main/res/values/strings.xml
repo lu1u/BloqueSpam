@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Spam Call Block</string>
+
+    <string name="message_ask_for_permissions">This application needs some Android permissions to work properly</string>
+    <string name="message_missing_permissions">Missing permissions</string>
+    <string name="message_grant_permissions">Grant permissions</string>
+
+    <string name="title_settings">Settings</string>
+    <string name="title_regles">Rules</string>
+    <string name="title_history">History</string>
+    <string name="activer_blocage">Activate SPAM call blocking</string>
+    <string name="display_notification">Notify when a call is blocked</string>
+    <string name="toujours_bloquer">Always blocked</string>
+    <string name="toujours_accepter">Always accepted</string>
+    <string name="menu_modifier">Edit…</string>
+    <string name="menu_supprimer">Delete</string>
+
+    <string name="channel_name">Block unknown incoming call</string>
+    <string name="channel_description">Block incoming calls from unkown caller</string>
+
+    <string name="notification_numero_bloque">Incoming call blocked</string>
+
+    <string name="supprimer_titre">Delete</string>
+    <string name="supprimer_regle">Delete %1$s?</string>
+    <string name="ui_a_propos_icones">Icons from https://materialdesignicons.com</string>
+    <string name="ui_a_propos_code">Code excerpt from: https://stackoverflow.com</string>
+    <string name="ui_bouton_rapport">Report</string>
+
+    <string name="enabled">Enabled</string>
+    <string name="disabled">Disabled</string>
+    <string name="element_list_bloque">%1$s always blocked</string>
+    <string name="element_list_accepte">%1$s always allowed</string>
+    <string name="appel_bloque">Incoming call blocked %1$s</string>
+    <string name="appel_autorise">Incoming call allowed %1$s</string>
+    <string name="supprimer_evenements">Delete history?</string>
+    <string name="creer_des_regles">No rule found. Please create some rules in the \"Rules\" tab</string>
+    <string name="numero_vide_titre">Empty phone number</string>
+    <string name="numero_vide_message">Please enter a phone number, or the beginning of a number</string>
+    <string name="report_effacer_traces">Delete traces?</string>
+    <string name="message_regle_supprimee">Rule %1$s deleted"</string>
+    <string name="titre_creer_regles">No rule found</string>
+    <string name="ui_pas_encore_de_regles">Pressez + pour ajouter une règle</string>
+    <string name="ui_pas_encore_devenement">Pas encore d\'évenements</string>
+</resources>
